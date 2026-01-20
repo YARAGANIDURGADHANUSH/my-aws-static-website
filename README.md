@@ -3,6 +3,10 @@
 This project hosts a static website on **Amazon S3** and delivers it globally using **Amazon CloudFront (HTTPS)**.  
 Deployment is automated using **GitHub Actions CI/CD**, and CloudFront cache is invalidated after every update.
 
+## 🗺️ Architecture Diagram
+![AWS CI/CD Architecture](assets/aws_cicd_architecture.png)
+
+
 ![Deploy Static Website to S3](https://github.com/YARAGANIDURGADHANUSH/my-aws-static-website/actions/workflows/deploy.yml/badge.svg)
 
 ---
