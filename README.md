@@ -33,5 +33,12 @@ Deployment is automated using **GitHub Actions CI/CD**, and CloudFront cache is 
 ## ⚙️ CI/CD Workflow
 GitHub Actions runs on every push to `main` and deploys the website using:
 
+----
+
+## 🗺️ Architecture Diagram
+
+![AWS CI/CD Architecture](assets/aws_cicd_architecture.png)
+
+
 ```bash
 aws s3 sync . s3://sree-static-website-01 --delete
